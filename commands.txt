@@ -1,0 +1,60 @@
+#This is an example project to demostrate the use of git on Ubuntu.
+
+#Create an empy Git diretory.
+
+$git init
+
+
+#Add a new remote "named origin".
+
+$git remote add origin https://github.com/tagshing0n/proyect-4.git
+
+
+#Configure name and email owner (for this case "atom" user and 3barbos4@gmail.com email).
+
+$git config --global user.name "atom" 
+$git config --global user.email 3barbos4@gmail.com
+
+
+#Get changes on GitHub back to your computer
+
+$git pull origin master
+
+
+#Set upstream branch
+
+$git branch --set-upstream-to=origin/master
+
+
+#Update README.md, added python.py files (this command is optional because README.md was created on GitHub previously).
+
+$nano README.md
+
+$touch python.py
+
+$nano python.py
+
+
+#Add README.md and python.py files (or use "$git add -A" for add all).
+
+$git add README.md
+
+$git add python.py
+
+$git add -A
+
+
+#Create a commit (in this case "Add README.md and python.py files" is a comment).
+
+$git commit -m "Update README.md and add python.py files"
+
+
+#Push onto GitHub.
+
+$git push
+
+
+
+
+
+
