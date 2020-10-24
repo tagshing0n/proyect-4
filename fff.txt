@@ -1,0 +1,12 @@
+./f.txt:1:./file2.txt:2:ecuacion
+./f.txt:2:./file1.txt:2:ecuacion
+./f.txt:3:./file3.txt:2:ecuacion
+./fff.txt:1:./f.txt:1:./file2.txt:2:ecuacion
+./fff.txt:2:./f.txt:2:./file1.txt:2:ecuacion
+./fff.txt:3:./f.txt:3:./file3.txt:2:ecuacion
+./fff.txt:4:./file2.txt:2:ecuacion
+./fff.txt:5:./file1.txt:2:ecuacion
+./fff.txt:6:./file3.txt:2:ecuacion
+./file2.txt:2:ecuacion
+./file1.txt:2:ecuacion
+./file3.txt:2:ecuacion
